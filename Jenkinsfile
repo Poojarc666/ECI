@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code completely' 
+                echo 'Compile ' 
             }
         }
         stage('Security Check') {
